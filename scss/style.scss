@@ -1,0 +1,15 @@
+$primary:gold;
+$seccess:red;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$my-custom-theme-color: (
+  "btnrangi": blueviolet
+);
+
+
+$theme-colors: map-merge($my-custom-theme-color, $theme-colors);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
